@@ -1,0 +1,5 @@
+build:
+  mailo:
+    image: hseeberger/scala-sbt
+    commands:
+      - sbt tut
