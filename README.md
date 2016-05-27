@@ -8,7 +8,6 @@ Scala library for [Sinch](https://sinch.com) authentication ticket generation
 Add to your `build.sbt`
 
 ```scala
-resolvers += Resolver.bintrayRepo("buildo", "maven")
 libraryDependencies += "io.buildo" %% "sinch-ticketgen" % "0.1.0"
 ```
 
