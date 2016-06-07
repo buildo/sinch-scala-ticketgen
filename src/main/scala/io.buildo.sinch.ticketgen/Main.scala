@@ -46,7 +46,7 @@ package object sinch {
 
   case class SignedTicket(userTicket: String)
 
-  case class TicketGenerator private (applicationKey: String, applicationSecret: String) {
+  case class TicketGenerator(applicationKey: String, applicationSecret: String) {
 
    /** Generates a SignedTicket valid for authenticating with a Sinch app
      *
